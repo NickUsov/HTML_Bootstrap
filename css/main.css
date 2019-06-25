@@ -29,7 +29,7 @@
     font-size: 16px;
 }
 .home__info_block {
-    padding-top: 112px;
+    padding-top: 42px;
 }
 .home__button {
     width: 134px;
@@ -48,4 +48,28 @@
     width: 63px;
     background-color: #ffffff;
     margin: 38px 0;
+}
+.home__form_block {
+    width: 400px;
+    height: 500px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+}
+.border-group {
+    display: flex;
+    flex-flow: row;
+    border-bottom: 1px solid #000000;
+    margin: 12px;
+}
+.input {
+    border: none;
+}
+.home__separator {
+    height: 4px;
+    background-color: #000000;
+}
+.home__paragraph {
+    font-size: 20px;
+    font-weight: bold;
 }
