@@ -1,0 +1,51 @@
+.header {
+    background-color: #000000;
+}
+.header_menu_item {
+    font-family: "Open Sans";
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 14px;
+}
+.navbar-inverse .navbar-nav li>a {
+    color: #ffffff;
+}
+.container {
+    height: 70px;
+    padding-top: 10px;
+}
+.home {
+    background-image: url("../images/image.jpg");
+    height: 711px;
+}
+.home__info_paragraph {
+    font-size: 36px;
+    color: #ffffff;
+    margin-top: 38px;
+}
+.home__info_text {
+    width: 460px;
+    color: #ffffff;
+    font-size: 16px;
+}
+.home__info_block {
+    padding-top: 112px;
+}
+.home__button {
+    width: 134px;
+    height: 42px;
+    border: 3px solid #fff;
+    text-align: center;
+    background: rgba(0,0,0,0);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 5px;
+    margin-top: 38px;
+}
+.home_separator {
+    height: 3px;
+    width: 63px;
+    background-color: #ffffff;
+    margin: 38px 0;
+}
