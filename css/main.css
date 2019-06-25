@@ -10,7 +10,7 @@
 .navbar-inverse .navbar-nav li>a {
     color: #ffffff;
 }
-.container {
+.nav__container {
     height: 70px;
     padding-top: 10px;
 }
@@ -88,11 +88,33 @@
     font-family: "Raleway", sans-serif;
     margin-left: 8px;
 }
-.btn {
+.form__btn {
     width: 100%;
     color: #ffffff;
     background-color: #ff9b51;
     border-radius: 3px;
     padding: 16px 0;
     font-size: 15px;
+}
+.social {
+    border-bottom: 2px solid #cccccc;
+    margin-top: 0;
+    height: 132px;
+    margin-bottom: 147px;
+}
+.img__social {
+    margin-top: 30px;
+}
+.social__paragraph {
+    margin-bottom: 22px;
+}
+.content__group {
+    width: 110px;
+}
+.content__button {
+    height: 110px;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 4px;
+    margin: 1px;
 }
