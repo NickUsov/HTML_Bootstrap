@@ -1,3 +1,5 @@
+/************** HEADER**************/
+
 .header {
     background-color: #000000;
 }
@@ -14,6 +16,9 @@
     height: 70px;
     padding-top: 10px;
 }
+
+/*********** END HEADER**************/
+/*************** HOME ***************/
 .home {
     background-image: url("../images/image.jpg");
     height: 711px;
@@ -96,6 +101,14 @@
     padding: 16px 0;
     font-size: 15px;
 }
+
+/*********** END HOME **************/
+
+/************* CONTENT ***************/
+/************* CONTENT ***************/
+
+/*************** SOCIAL ***************/
+
 .social {
     border-bottom: 2px solid #cccccc;
     margin-top: 0;
@@ -117,4 +130,306 @@
     color: #ffffff;
     border-radius: 4px;
     margin: 1px;
+}
+
+/************** END SOCIAL ***************/
+/**************** SubList ****************/
+
+.sublist {
+    padding-top: 146px;
+}
+.sublist__header {
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: bold;
+}
+.sublist__separator {
+    display: block;
+    height: 2px;
+    width: 63px;
+    background-color: #ff9b51;
+    margin: 28px 0;
+}
+.sublist__header_text {
+    font-family: "Open Sans";
+    font-weight: normal;
+    font-size: 14px;
+    color: #86878b;
+}
+.sublist__circle {
+    position: relative;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border: 2px solid #ff9b51;
+    margin: 8px 0 0 20px;
+}
+.sublist__cloud {
+    position: absolute;
+    top: 9px;
+    left: 9px;
+}
+.sublist__row {
+    margin: 40px 0 0 0;
+}
+.sublist__paragraph {
+    padding-left: 35px;
+    padding-right: 0;
+    font-family: "Open Sans";
+    font-weight: normal;
+    font-size: 14px;
+    color: #86878b;
+}
+.sublist__text_header {
+    font-family: "Open Sans SemiBold";
+    font-size: 14px;
+    color: #000000;
+}
+.sublist__second_col {
+    padding: 0;
+}
+.sublist__first_col {
+    padding: 0;
+}
+.sublist__row_primary {
+    margin-left: 0;
+}
+.sublist {
+    padding: 146px 0;
+    margin-left: 190px;
+}
+
+/************** END SubList ***************/
+/**************** Standard ****************/
+
+.standard_fluid {
+    background-color: #f5f5f5;
+    padding: 40px 0 40px 0;
+}
+/************** END Standard ***************/
+/****************  Awesome  ****************/
+
+.awesome {
+    padding: 40px 0;
+}
+.awesome__headliner {
+    font-family: Raleway;
+    font-size: 36px;
+    text-align: center;
+}
+.orange_separator {
+    display: block;
+    height: 2px;
+    width: 63px;
+    margin: 10px auto;
+    background-color: #ff9b51;
+}
+.awesome_head_text {
+    font-family: "Open Sans";
+    font-size: 14px;
+    color: #86878b;
+    text-align: center;
+}
+.awesome__circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid #ff9b51;
+    position: relative;
+    margin: 30px auto;
+}
+.awesome__img {
+    position: absolute;
+    top: 16px;
+    left: 24px;
+}
+.awesome__img_board {
+    position: absolute;
+    top: 22px;
+    left: 16px;
+}
+.awesome__box_headliner {
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.awesome__box_text {
+    color: #86878b;
+    font-family: Raleway;
+    font-size: 14px;
+    text-align: center;
+}
+
+/************** END Awesome ***************/
+/****************  Pricing ****************/
+
+.pricing__container_fluid {
+    background-color: #f5f5f5;
+}
+.pricing__headliner {
+    font-family: Raleway;
+    font-size: 36px;
+    text-align: center;
+}
+.pricing__head_text {
+    font-family: "Open Sans";
+    font-size: 14px;
+    color: #86878b;
+    text-align: center;
+}
+.pricing__first_block {
+    background-color: #333333;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 0 12px 0;
+    margin-bottom: 1px;
+}
+.pricing__second_block {
+    background-color: #333333;
+}
+.second_block_text {
+    font-family: Raleway;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
+.dollar {
+    font-size: 36px;
+}
+.zero {
+    font-size: 94px;
+}
+
+.italic {
+    font-family: "Open Sans SemiBold";
+    font-size: 14px;
+    font-style: italic;
+    color: #939393;
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+}
+.pricing__third_block {
+    min-height: 5px;
+    background-color: #ff8b38;
+}
+.pricing__block_footer {
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    margin-bottom: 0;
+}
+.pricing__column {
+    padding-top: 46px;
+}
+.pricing__btn_group {
+    width: 100%;
+    background-color: #f5f5f5;
+}
+.pricing_btn {
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    font-family: "Open Sans";
+    color: #a4a5a8;
+    height: 34px;
+    margin-bottom: 3px;
+}
+
+/************** END Pricing ***************/
+/****************  Saying  ****************/
+
+.saying_tex {
+    background-color: #f5f5f5;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: italic;
+    color: #86878b;
+}
+.saying__circle {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background-image: url("../images/avatar_2_u231.png");
+}
+.saying__name {
+    font-family: "Open Sans";
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 15px;
+    margin-bottom: 0;
+}
+.saying__rank {
+    font-family: "Open Sans";
+    font-size: 14px;
+    color: #86878b;
+}
+.saying__block_text {
+    padding-top: 30px;
+}
+
+/************** END Saying *****************/
+/****************  Stylish  ****************/
+
+.stylish {
+    background-image: url("../images/u25_state0.jpg");
+}
+.stylish__headliner {
+    font-family: Raleway;
+    font-size: 36px;
+    color: #ffffff;
+    margin: 70px 0 32px 0;
+    text-align: center;
+}
+.white_separator {
+    height: 2px;
+    background-color: #ffffff;
+    width: 64px;
+    margin: 0 auto;
+}
+.stylish__text {
+    font-size: 16px;
+    font-family: Raleway;
+    font-weight: lighter;
+    color: #85837d;
+    text-align: center;
+    margin: 36px 0 36px 0;
+}
+.stylish__button {
+    color: #ffffff;
+    border: 2px solid #ffffff ;
+    background-color: rgba(0,0,0,0);
+    width: 134px;
+    height: 42px;
+    font-family: "Open Sans SemiBold";
+    font-size: 15px;
+    margin-left: 46%;
+    margin-bottom: 63px;
+}
+
+/************** END Stylish *****************/
+/****************  Contacts  ****************/
+
+.contacts__headliner {
+    font-size: 36px;
+    font-family: Raleway;
+    color: #000000;
+    margin-top: 109px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+.contacts_text {
+    font-family: "Open Sans";
+    font-size: 14px;
+    color: #85837d;
+    text-align: center;
+    margin-top: 32px;
 }
