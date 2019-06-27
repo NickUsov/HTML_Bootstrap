@@ -104,41 +104,42 @@
 }
 
 /*********** END HOME **************/
-
-/************* CONTENT ***************/
-/************* CONTENT ***************/
-
 /*************** SOCIAL ***************/
 
 .social {
     border-bottom: 2px solid #cccccc;
     margin-top: 0;
-    height: 132px;
-    /*margin-bottom: 147px;*/
+    padding: 24px 0;
 }
-.img__social {
-    margin-top: 30px;
+.social__headliner {
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
 }
 .social__paragraph {
     margin-bottom: 22px;
+    font-family: "Open Sans";
+    font-weight: normal;
+    font-size: 14px;
+    color: #c3c3c5;
+}
+.icon {
+    color: #cccccc;
+    font-size: 45px;
+}
+.icon:hover {
+    color: #ff8b38;
 }
 .social__href {
-    position: relative;
-}
-.fb {
-    position: absolute;
-    top: 25px;
-}
-.twi {
-    position: absolute;
-    top:25px;
+    padding-top: 25px;
 }
 /************** END SOCIAL ***************/
 /**************** Info ****************/
 
 .info{
     background-color: #f5f5f5;
-    padding: 147px 0 116px 0;
+    padding: 158px 0 116px 0;
 }
 .info__group {
     width: 110px;
@@ -150,7 +151,49 @@
     border-radius: 4px;
     margin: 1px;
 }
-
+.tab__container {
+    width: 110px;
+}
+.tab__fasad {
+    height: 110px;
+    padding-top: 46px;
+}
+.tab_text {
+    text-align: center;
+    color: #ffffff;
+}
+.tab__btn {
+    padding: 0;
+    background-color: #333333;
+    margin-bottom: 2px;
+}
+.tab__btn.active {
+    background-color: #ff8b38;
+}
+.tab__headliner {
+    font-family: "Open Sans";
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 60px;
+}
+.tab__content {
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: normal;
+    color: #86878b;
+    margin-bottom: 28px;
+}
+.tab__button {
+    width: 120px;
+    height: 44px;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "Open Sans";
+    font-weight: bold;
+    background-color: #ff8b38;
+    border-radius: 5px;
+}
 /************** END Info ***************/
 /**************** SubList ****************/
 
@@ -231,6 +274,7 @@
 
 .awesome {
     padding: 109px 0;
+
 }
 .awesome__headliner {
     font-family: Raleway;
@@ -289,17 +333,20 @@
 
 .pricing__container_fluid {
     background-color: #f5f5f5;
+    padding: 110px 0 97px;
 }
 .pricing__headliner {
     font-family: Raleway;
     font-size: 36px;
     text-align: center;
+    margin-bottom: 31px;
 }
 .pricing__head_text {
     font-family: "Open Sans";
     font-size: 14px;
     color: #86878b;
     text-align: center;
+    margin: 31px 0 84px;
 }
 .pricing__first_block {
     background-color: #333333;
@@ -370,6 +417,9 @@
 /************** END Pricing ***************/
 /****************  Saying  ****************/
 
+.saying {
+    padding: 110px 0 102px;
+}
 .saying_tex {
     background-color: #f5f5f5;
     font-family: "Open Sans";
@@ -421,8 +471,8 @@
 .stylish__text {
     font-size: 16px;
     font-family: Raleway;
-    font-weight: lighter;
-    color: #85837d;
+    font-weight: 200;
+    color: #ffffff;
     text-align: center;
     margin: 36px 0 36px 0;
 }
@@ -439,9 +489,12 @@
 }
 
 /************** END Stylish *****************/
-/****************  Contacts  ****************/
+/****************  Contactus  ***************/
 
-.contacts__headliner {
+.contactus {
+    padding-top: 110px;
+}
+.contactus__headliner {
     font-size: 36px;
     font-family: Raleway;
     color: #000000;
@@ -449,10 +502,61 @@
     margin-bottom: 32px;
     text-align: center;
 }
-.contacts_text {
+.contactus_text {
     font-family: "Open Sans";
     font-size: 14px;
     color: #85837d;
     text-align: center;
     margin-top: 32px;
+}
+.contactus__col2 {
+    padding-top: 48px;
+}
+.contactus__textarea {
+    border: none;
+    border-bottom: 1px solid #bdbdbd;
+}
+.contactus__form_label {
+    color: #bdbdbd;
+    margin-bottom: 26px;
+}
+.contactus__form_control {
+
+    clear: both;
+    margin-left: 42%;
+
+}
+.contactus__form_btn {
+    width: 145px;
+    height: 45px;
+    background-color: #ff9b51;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 16px;
+    border-radius: 6px;
+    padding-top: 5px;
+    margin-bottom: 82px;
+}
+
+/************** END Contactus *****************/
+/******************   FOOTER   ****************/
+
+.footer {
+    background-color: #000000;
+    padding-top: 24px;
+}
+.footer__href {
+    color: #cccccc;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.footer__href:hover {
+    color: #ff9b51;
+}
+.copyright {
+    margin: 14px 0 15px 43%;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 200;
+    color: #ffffff;
 }

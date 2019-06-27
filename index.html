@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Exam</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/fontawesome.min.css">
+    <link href="css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Raleway:300,400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
@@ -95,46 +95,58 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid social"> <!--CONTENT-->
-        <div class="container"> <!--SOCIAL-->
+    <div class="container-fluid social">  <!--SOCIAL-->
+        <div class="container">
             <div class="row">
-                <div class="col-lg-4">
-                    <h2>Social Media</h2>
+                <div class="col-lg-5">
+                    <p class="social__headliner">Social Media</p>
                     <p class="social__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Aenean euismod bibendum laoreet.
                     </p>
                 </div>
-                <!--<div class="col-lg-5 col-lg-offset-1">
-                    <img src="images/SocialMediaIcons.png" alt="social" class="img__social">
-                </div>-->
-                <div class="col-lg-1 social__href"><a href="#"><img src="images/fb_gray.png" alt="icon" class="fb"></a></div>
-                <div class="col-lg-1 social__href"><a href="#"><i class="fab fa-twitter"></i></a></div>
-                <div class="col-lg-1 social__href"><a href="#"><i class="fab fa-google-plus-g"></i></a></div>
-                <div class="col-lg-1 social__href"><a href="#"><i class="fab fa-pinterest"></i></a></div>
-                <div class="col-lg-1 social__href"><a href="#"><i class="fab fa-instagram"></i></a></div>
-                <div class="col-lg-1 social__href"><a href="#"><i class="fab fa-stumbleupon"></i></a></div>
-                <div class="col-lg-1 social__href"><a href="#"><i class="fas fa-rss"></i></a></div>
+                <div class="col-lg-1 social__href"><a href="#"><i class="fab fa-facebook-f icon"></i></a></div>
+                <div class="col-lg-1 social__href"><a href="#"><i class="fab fa-twitter icon"></i></a></div>
+                <div class="col-lg-1 social__href"><a href="#"><i class="fab fa-google-plus-g icon"></i></a></div>
+                <div class="col-lg-1 social__href"><a href="#"><i class="fab fa-pinterest icon"></i></a></div>
+                <div class="col-lg-1 social__href"><a href="#"><i class="fab fa-instagram icon"></i></a></div>
+                <div class="col-lg-1 social__href"><a href="#"><i class="fab fa-stumbleupon icon"></i></a></div>
+                <div class="col-lg-1 social__href"><a href="#"><i class="fas fa-rss icon"></i></a></div>
             </div>
         </div>
     </div>
     <div class="container-fluid info"><!--Info-->
         <div class="container">
             <div class="row">
-                <div class="col-lg-4">
-                    <div class="btn-group-vertical info__group nav nav-tabs" role="group" aria-label="...">
-                        <button type="button" class="btn btn-default info__button active">TAB 1</button>
-                        <button type="button" class="btn btn-default  info__button">TAB 2</button>
-                        <button type="button" class="btn btn-default  info__button">TAB 3</button>
+                <div class="col-md-3">
+                    <div class="btn-group-vertical nav-tabs nav tab__container" role="group" aria-label="...">
+                        <button class="btn active nav tab__btn"><a data-toggle="tab" href="#panel1"><div class="tab__fasad"><p class="tab_text">TAB 1</p></div></a></button>
+                        <button class="btn nav tab__btn"><a data-toggle="tab" href="#panel2"><div class="tab__fasad"><p class="tab_text">TAB 2</p></div></a></button>
+                        <button class="btn nav tab__btn"><a data-toggle="tab" href="#panel3"><div class="tab__fasad"><p class="tab_text">TAB 3</p></div></a></button>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-md-5">
                     <div class="tab-content">
-                        <div id="panel1" class="tab-pane fade in active"></div>
-                        <div id="panel2" class="tab-pane fade"></div>
-                        <div id="panel3" class="tab-pane fade"></div>
+                        <div id="panel1" class="tab-pane active">
+                            <p class="tab__headliner">Tabs with soft transitioning effect.</p>
+                            <p class="tab__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                                bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+                                justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+                                penatibus et magnis dis parturient montes.</p>
+                            <p class="tab__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                                bibendum laoreet.</p>
+                            <button class="tab__button">Download</button>
+                        </div>
+                        <div id="panel2" class="tab-pane fade">
+                            <h3>Панель 2</h3>
+                            <p>Содержимое 2 панели...</p>
+                        </div>
+                        <div id="panel3" class="tab-pane fade">
+                            <h3>Панель 3</h3>
+                            <p>Содержимое 3 панели...</p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-md-3 col-md-offset-1">
                     <img src="images/image_right_u255.png" alt="info" class="img__info">
                 </div>
             </div>
@@ -309,7 +321,7 @@
             </div>
         </div>
     </div>
-    <div class="container"> <!--What saying-->
+    <div class="container saying"> <!--What saying-->
         <p class="awesome__headliner">WHAT OUR CUSTOMERS ARE SAYING</p>
         <div class="orange_separator"></div>
         <p class="awesome_head_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -378,17 +390,61 @@
             Download
         </button>
     </div>
-    <div class="container"> <!--ContactForm-->
-        <p class="contacts__headliner">CONTACT US</p>
+    <div class="container contactus"> <!--ContactForm-->
+        <p class="contactus__headliner">CONTACT US</p>
         <div class="orange_separator"></div>
-        <p class="contacts_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <p class="contactus_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         <div class="row">
-            <div class="col-lg-6"></div>
-            <div class="col-lg-6"></div>
+            <div class="col-md-6">
+                <form class="form-horizontal">
+                    <div class="control-group border-group">
+                        <label class="control-label" for="inputN">Name</label>
+                        <div class="controls">
+                            <input type="text" id="inputN" class="input">
+                        </div>
+                    </div>
+                    <div class="control-group border-group">
+                        <label class="control-label" for="inputEm">Email</label>
+                        <div class="controls">
+                            <input type="text" id="inputEm" class="input">
+                        </div>
+                    </div>
+                    <div class="control-group border-group">
+                        <label class="control-label" for="inputSubject">Subject</label>
+                        <div class="controls">
+                            <input type="text" id="inputSubject" class="input">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-6 contactus__col2">
+                <p class="contactus__form_label">Message</p>
+                <textarea name="form_multytext" id="form_text_input" cols="80" rows="7" class="contactus__textarea"></textarea>
+            </div>
+             <div class="contactus__form_control control-group">
+                   <div class="controls">
+                       <button class="contactus__form_btn">Send Message</button>
+                   </div>
+               </div>
         </div>
     </div>
-    <div class="container"><!--Footer-->
-
+    <div class="container-fluid footer"><!--Footer-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4 footer__col">
+                    <div class="row">
+                        <a class="footer__href" href="#"><i class="fab fa-facebook-f "></i></a>
+                        <a class="footer__href" href="#"><i class="fab fa-twitter "></i></a>
+                        <a class="footer__href" href="#"><i class="fab fa-google-plus-g "></i></a>
+                        <a class="footer__href" href="#"><i class="fab fa-pinterest "></i></a>
+                        <a class="footer__href" href="#"><i class="fab fa-instagram "></i></a>
+                        <a class="footer__href" href="#"><i class="fab fa-stumbleupon "></i></a>
+                        <a class="footer__href" href="#"><i class="fas fa-rss "></i></a>
+                    </div>
+                </div>
+            </div>
+            <p class="copyright">&copy; 2015 Axure Themes</p>
+        </div>
     </div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
