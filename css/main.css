@@ -21,7 +21,7 @@
 /*************** HOME ***************/
 .home {
     background-image: url("../images/image.jpg");
-    height: 711px;
+    /*height: 711px;*/
 }
 .home__info_paragraph {
     font-size: 36px;
@@ -47,6 +47,7 @@
     font-weight: 500;
     padding-top: 5px;
     margin-top: 38px;
+    margin-bottom: 140px;
 }
 .home_separator {
     height: 3px;
@@ -97,7 +98,7 @@
     width: 100%;
     color: #ffffff;
     background-color: #ff9b51;
-    border-radius: 3px;
+    border-radius: 0 0 3px 3px;
     padding: 16px 0;
     font-size: 15px;
 }
@@ -113,7 +114,7 @@
     border-bottom: 2px solid #cccccc;
     margin-top: 0;
     height: 132px;
-    margin-bottom: 147px;
+    /*margin-bottom: 147px;*/
 }
 .img__social {
     margin-top: 30px;
@@ -121,10 +122,28 @@
 .social__paragraph {
     margin-bottom: 22px;
 }
-.content__group {
+.social__href {
+    position: relative;
+}
+.fb {
+    position: absolute;
+    top: 25px;
+}
+.twi {
+    position: absolute;
+    top:25px;
+}
+/************** END SOCIAL ***************/
+/**************** Info ****************/
+
+.info{
+    background-color: #f5f5f5;
+    padding: 147px 0 116px 0;
+}
+.info__group {
     width: 110px;
 }
-.content__button {
+.info__button {
     height: 110px;
     background-color: #000000;
     color: #ffffff;
@@ -132,11 +151,12 @@
     margin: 1px;
 }
 
-/************** END SOCIAL ***************/
+/************** END Info ***************/
 /**************** SubList ****************/
 
 .sublist {
-    padding-top: 146px;
+    padding: 128px 0 138px 0;
+
 }
 .sublist__header {
     font-family: "Open Sans";
@@ -196,7 +216,7 @@
 }
 .sublist {
     padding: 146px 0;
-    margin-left: 190px;
+
 }
 
 /************** END SubList ***************/
@@ -204,24 +224,25 @@
 
 .standard_fluid {
     background-color: #f5f5f5;
-    padding: 40px 0 40px 0;
+    padding: 109px 0 129px 0;
 }
 /************** END Standard ***************/
 /****************  Awesome  ****************/
 
 .awesome {
-    padding: 40px 0;
+    padding: 109px 0;
 }
 .awesome__headliner {
     font-family: Raleway;
     font-size: 36px;
     text-align: center;
+    margin-bottom: 32px;
 }
 .orange_separator {
     display: block;
     height: 2px;
     width: 63px;
-    margin: 10px auto;
+    margin: 0px auto 34px;
     background-color: #ff9b51;
 }
 .awesome_head_text {
@@ -229,6 +250,7 @@
     font-size: 14px;
     color: #86878b;
     text-align: center;
+    margin-bottom: 84px;
 }
 .awesome__circle {
     width: 70px;
@@ -253,6 +275,7 @@
     font-size: 20px;
     font-weight: bold;
     text-align: center;
+    margin-bottom: 31px;
 }
 .awesome__box_text {
     color: #86878b;
